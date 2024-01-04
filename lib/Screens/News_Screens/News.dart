@@ -11,6 +11,7 @@ import '../../themes/style.dart';
 import '../../../Modal/modal.dart';
 import 'News_viewPage.dart';
 
+////
 Widget News_List_Widget(BuildContext context, News_data) {
   var barecontroller = new BareActController();
   barecontroller.bareActpage = false;
