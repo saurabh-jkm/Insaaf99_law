@@ -15,6 +15,7 @@ Widget News_List_Widget(BuildContext context, News_data) {
   var barecontroller = new BareActController();
   barecontroller.bareActpage = false;
 
+  ///
   return Container(
     height: MediaQuery.of(context).size.height * 1.70,
     child: ListView.builder(
